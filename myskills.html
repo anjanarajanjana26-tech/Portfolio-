@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <title>About Me</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+            
+        }
+        skills-section {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.skills-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.skill {
+  position: relative;
+}
+
+.skill span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.percent {
+  float: right;
+}
+
+.progress {
+  background: #e6e6e6;
+  height: 6px;
+  border-radius: 10px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  border-radius: 10px;
+}
+
+
+        header{
+            background-color: darkcyan;
+            text-align: center;
+            padding: 16px;
+        }
+
+
+         footer{
+        background-color:beige;
+        color:black;
+        padding: 16px 0;
+        
+        
+        text-align: center;
+        
+    }
+
+
+         btn {
+    background: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: #1e40af;
+  }
+        
+        </style>
+</head>
+<body>
+    <header>
+  <h2>MY SKILLS</h2>
+    </header>
+
+  <div class="skills-grid">
+
+   
+
+    <div class="skill">
+      <span>HTML</span>
+      <span class="percent">85%</span>
+      <div class="progress">
+        <div class="progress-bar" style="width:85%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>C Programming</span>
+      <span class="percent">70%</span>
+      <div class="progress">
+        <div class="progress-bar" style="width:70%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>JavaScript</span>
+      <span class="percent">65%</span>
+      <div class="progress">
+        <div class="progress-bar" style="width:90%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <span>python</span>
+      <span class="percent">60%</span>
+      <div class="progress">
+        <div class="progress-bar" style="width:90%"></div>
+      </div>
+    </div>
+
+    
+      
+  </div>
+</section>
+
+
+<footer>
+
+          <a href="about.html" class="btn btn-primary">previous</a>
+        <a href="contact.html" class="btn btn-primary">next</a>
+
+
+
+       
+    
+   
+    </footer>
+
+
+
+
+
+
+
+
+
+   
+    
+</body>
+</html>
